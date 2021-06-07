@@ -1,5 +1,7 @@
 ## ReactJS Boilerplate With Atomic Design - Ready for Development
+
 ![alt text](https://1.bp.blogspot.com/-71VSgm9XGeY/X_VeXDPb2WI/AAAAAAAAFAo/woSRoB691aIWyRysCYMr8GTmc20pj4OpwCLcBGAsYHQ/s0/1500x500.jpg)
+
 - Created with: ReactJS ^17.0.1
 
 First, run the development server:
@@ -14,7 +16,7 @@ yarn start
 
 1.  Atomic Design Folder Structure.
 2.  Import with Absolute path (e.g: import { View } from 'component').
-3.  Already integrated with Redux and Firebase.
+3.  Already integrated with Redux.
 4.  API instance with axios.
 5.  Already integrated with dynamic react-router & pages.
 6.  Easy to use!

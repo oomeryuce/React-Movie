@@ -1,40 +1,22 @@
-const activeConfig = 'dev'
+const activeConfig = "dev";
 
 const config = {
   dev: {
-    appName: 'atomic-boilerplate-reactJS',
+    appName: "atomic-boilerplate-reactJS",
     url: {
-      api: '',
-      assets: '',
-      origin: ''
-    },
-    firebase: {
-      apiKey: '',
-      authDomain: '',
-      databaseURL: '',
-      projectId: '',
-      storageBucket: '',
-      messagingSenderId: '',
-      appId: ''
+      api: "",
+      assets: "",
+      origin: "",
     },
   },
   prod: {
-    appName: 'atomic-boilerplate-reactJS',
+    appName: "atomic-boilerplate-reactJS",
     url: {
-      api: '',
-      assets: '',
-      origin: ''
+      api: "",
+      assets: "",
+      origin: "",
     },
-    firebase: {
-      apiKey: '',
-      authDomain: '',
-      databaseURL: '',
-      projectId: '',
-      storageBucket: '',
-      messagingSenderId: '',
-      appId: ''
-    }
-  }
+  },
 };
 
 const appConfig = config[activeConfig];
