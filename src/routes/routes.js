@@ -1,4 +1,4 @@
-import {Home, Detail, Category} from 'pages';
+import {Home, Detail} from 'pages';
 
 const routes = [
   {
@@ -12,12 +12,6 @@ const routes = [
     path: '/detail/:id',
     exact: true,
     component: Detail
-  },
-  {
-    name: "Category",
-    path: '/category',
-    exact: true,
-    component: Category
   }
 ];
 
